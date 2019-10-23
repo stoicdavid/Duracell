@@ -15,3 +15,25 @@
  *= require foundation_and_overrides
 
  */
+
+
+body {
+	background: url("Fondo.png") no-repeat center;
+}
+
+.top-bar{
+	background: url("barra_menu_cobre.png") no-repeat;
+	background-position: center;
+
+	overflow:hidden;
+
+}
+
+.menu {
+  background-color: transparent !important;
+} 
+
+@font-face {
+    font-family: 'Oblik';
+    src: url(font-path('/assets/fonts/Oblik-Black'));
+	 }
